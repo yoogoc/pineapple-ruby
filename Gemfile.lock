@@ -1,0 +1,19 @@
+GIT
+  remote: https://github.com/dblock/ruby-enum.git
+  revision: 9124cf17e08937278d48170c4414ef5ea32b4193
+  specs:
+    ruby-enum (0.8.1)
+      i18n
+
+GEM
+  remote: https://gems.ruby-china.com/
+  specs:
+    concurrent-ruby (1.1.8)
+    i18n (1.8.7)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruby-enum!

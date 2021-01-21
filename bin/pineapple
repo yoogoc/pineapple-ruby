@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+Bundler.require(:default)
+Dir['./*.rb'].each {|file| require file }
+
+pa_file = File.open('./hello.pineapple')
+Backend.new.execute(pa_file.read)
